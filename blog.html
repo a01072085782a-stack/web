@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | 포트폴리오</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+    <!-- 네비게이션 바 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">포트폴리오</a>
+            <ul class="nav-links">
+                <li><a href="index.html">홈</a></li>
+                <li><a href="about.html">소개</a></li>
+                <li><a href="blog.html" class="active">블로그</a></li>
+                <li><a href="contact.html">연락처</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 페이지 헤더 -->
+    <section class="page-header">
+        <h1>Blog</h1>
+        <p>개발 이야기와 팁을 공유합니다</p>
+    </section>
+
+    <main>
+        <!-- 블로그 포스트 -->
+        <section class="blog-section">
+            <div class="container">
+                <div class="blog-grid">
+                    <article class="blog-card">
+                        <div class="blog-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">React</span>
+                                <span class="blog-date">2024-04-15</span>
+                            </div>
+                            <h2>React Hooks 완전 가이드</h2>
+                            <p>React Hooks의 기본 개념부터 커스텀 Hooks 만드는 방법까지 완전히 설명합니다.</p>
+                            <a href="#" class="read-more">더 읽기 →</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">CSS</span>
+                                <span class="blog-date">2024-04-10</span>
+                            </div>
+                            <h2>CSS Grid 레이아웃 마스터하기</h2>
+                            <p>CSS Grid를 사용한 모던한 반응형 레이아웃 디자인 방법을 배워봅시다.</p>
+                            <a href="#" class="read-more">더 읽기 →</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">JavaScript</span>
+                                <span class="blog-date">2024-04-05</span>
+                            </div>
+                            <h2>Async/Await로 깔끔한 비동기 코드 작성하기</h2>
+                            <p>Promise와 Async/Await를 제대로 이해하고 효율적으로 사용하는 방법입니다.</p>
+                            <a href="#" class="read-more">더 읽기 →</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">Web Performance</span>
+                                <span class="blog-date">2024-03-28</span>
+                            </div>
+                            <h2>웹 성능 최적화 실전 팁</h2>
+                            <p>로딩 속도를 개선하고 사용자 경험을 향상시키는 실제 사용 가능한 팁들입니다.</p>
+                            <a href="#" class="read-more">더 읽기 →</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);"></div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">DevOps</span>
+                                <span class="blog-date">2024-03-20</span>
+                            </div>
+                            <h2>Docker 입문자를 위한 완전 가이드</h2>
+                            <p>Docker의 기본 개념과 실제 프로젝트에서 활용하는 방법을 배워봅시다.</p>
+                            <a href="#" class="read-more">더 읽기 →</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-image" style="background: linear-gradient(135deg, #ff9a56 0%, #ff6a88 100%);"></div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-category">Git</span>
+                                <span class="blog-date">2024-03-15</span>
+                            </div>
+                            <h2>Git 고급 사용법과 팁</h2>
+                            <p>Git을 더 효율적으로 사용하는 고급 기술과 개발팀과의 협업 팁입니다.</p>
+                            <a href="#" class="read-more">더 읽기 →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 뉴스레터 구독 -->
+        <section class="newsletter-section">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>뉴스레터 구독</h2>
+                    <p>매주 새로운 개발 팁과 블로그 포스트를 이메일로 받아보세요</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="your@email.com" required>
+                        <button type="submit" class="btn-subscribe">구독하기</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 김개발. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/common.js"></script>
+</body>
+</html>
